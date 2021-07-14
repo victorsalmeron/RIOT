@@ -39,6 +39,7 @@ int main(void)
      * receive potentially fast incoming networking packets */
     msg_init_queue(_main_msg_queue, MAIN_QUEUE_SIZE);
     puts("RIOT network stack example application");
+    puts("¡Soy Víctor Salmerón quiero pertenecer al Hackerspace San Salvador!.");
 
     /* start shell */
     puts("All up, running the shell now");
